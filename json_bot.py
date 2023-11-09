@@ -1,6 +1,6 @@
 from telebot import TeleBot, types
 import json
-bot = TeleBot(token='6490614875:AAFO4wJY6zMSkZaZAk67f8IJ5ME5U0jUmW4', parse_mode='html') 
+bot = TeleBot(token='tok y menya', parse_mode='html') 
 @bot.message_handler(commands=['start'])
 def start_command_handler(message: types.Message):
         bot.send_message(
